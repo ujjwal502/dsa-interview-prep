@@ -14,7 +14,7 @@ grinding random problems. Solutions are in **TypeScript**; notes are language-ne
 
 ---
 
-## The Curriculum (11 weeks, 2 phases)
+## The Curriculum (14 weeks, 2 phases)
 
 Phase 1 is the core toolkit; Phase 2 layers on the patterns that separate senior
 candidates. The difficulty mix per topic is deliberate — easies build fluency, mediums
@@ -33,6 +33,9 @@ are the interview bar, hards prove you can *combine* patterns under pressure.
 | 09 | 2-D Dynamic Programming | Two changing inputs → a table |
 | 10 | Advanced Graphs · Intervals · Greedy | Dijkstra, Union-Find, sweep, greedy |
 | 11 | Curated Hards | The repeat offenders that stack two known patterns |
+| 12 | Bit Manipulation | XOR cancels pairs; `n & (n-1)` drops the lowest set bit |
+| 13 | Math & Geometry | In-place matrix bookkeeping; overflow-safe math |
+| 14 | Design · Adv. Graphs · Intervals · Greedy | LRU Cache, Meeting Rooms II, Alien Dictionary — senior staples |
 
 ---
 
