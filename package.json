@@ -1,0 +1,23 @@
+{
+  "name": "dsa-interview-prep",
+  "version": "1.0.0",
+  "description": "Structured DSA interview preparation — notes, patterns, and TypeScript solutions.",
+  "type": "module",
+  "scripts": {
+    "solve": "tsx",
+    "check": "tsc --noEmit"
+  },
+  "keywords": [
+    "dsa",
+    "algorithms",
+    "data-structures",
+    "leetcode",
+    "interview-prep",
+    "typescript"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
