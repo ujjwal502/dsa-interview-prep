@@ -60,7 +60,7 @@ minutes.** Pattern recognition is the actual interview skill — the
 
 ```
 dsa-interview-prep/
-├── notes/            Concept notes — the "why", per topic
+├── notes/            Concept notes — one folder per chapter (e.g. big-o/)
 ├── patterns/         "When you see X → reach for Y" recognition cheatsheet
 ├── templates/        Reusable, memorized TS templates (binary search, DFS, backtracking…)
 ├── solutions/        One folder per topic; one .ts file per problem, self-checking
@@ -87,8 +87,8 @@ Passing assertions print nothing and exit `0`; a failing assertion throws.
 
 ## Using this repo yourself
 
-Fork it, work topic by topic, and run each problem through the five-step loop above.
+Fork it, work chapter by chapter, and run each problem through the five-step loop above.
 The notes give you the mental model, the templates give you the muscle memory, and the
-cheatsheet trains the recognition. Start with
-[Big-O & Complexity](notes/00-big-o-and-complexity.md) — it's the vocabulary everything
-else is scored in.
+cheatsheet trains the recognition. Start with the
+**[Big-O chapter](notes/big-o/)** — lesson, reference, and practice for the vocabulary
+everything else is scored in.
