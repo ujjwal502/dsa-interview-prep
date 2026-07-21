@@ -20,8 +20,9 @@ arr.pop();
 ```
 <details><summary>Answer</summary>
 
-**O(1)** amortized for both. Both only touch the last slot — nothing else in the array
-needs to move.
+**Amortized O(1)** for `push`, plain **O(1)** for `pop`. Both only touch the last slot —
+nothing else in the array needs to move. (Only `push` needs the "amortized," for the rare
+resize copy; `pop` never copies.)
 </details>
 
 ### Q2
@@ -151,9 +152,10 @@ console.log(total);
 ```
 <details><summary>Answer</summary>
 
-Prints **`"001"`**, not `3` or `60`. Two stacked traps: `for...in` yields keys as
+Prints **`"0012"`**, not `3` or `60`. Two stacked traps: `for...in` yields keys as
 **strings** (`"0"`, `"1"`, `"2"`), not the values or numeric indices — and `total += key`
-does string concatenation, not addition, once `total` stops being a number. This is
+does string concatenation, not addition, once `total` stops being a number. Step by step:
+`0 + "0"` → `"00"`, then `+ "1"` → `"001"`, then `+ "2"` → `"0012"`. This is
 exactly why `for...in` doesn't belong on arrays: use `for (const x of arr)` if you want
 values, or `arr.entries()` if you need the index too.
 </details>
