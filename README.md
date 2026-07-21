@@ -89,6 +89,7 @@ Passing assertions print nothing and exit `0`; a failing assertion throws.
 
 Fork it, work chapter by chapter, and run each problem through the five-step loop above.
 The notes give you the mental model, the templates give you the muscle memory, and the
-cheatsheet trains the recognition. Start with the
-**[Big-O chapter](notes/big-o/)** — lesson, reference, and practice for the vocabulary
-everything else is scored in.
+cheatsheet trains the recognition. Start with the foundations chapters —
+**[Big-O](notes/big-o/)** for the vocabulary everything else is scored in, then
+**[Array Mechanics](notes/array-mechanics/)** for the primitives Week 1's patterns are
+built on top of.
